@@ -1,9 +1,12 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import App from "./App";
-import {home} from "./Pages/Home/Home" ; 
 
 ReactDOM.render(
-    <App></App>,
+    <App/>,
     document.getElementById("viewport")
 );
+
+// todo take proofe of concept 
+// check site with s3
+// add cognito auth 
