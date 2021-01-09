@@ -1,3 +1,7 @@
+html, body {
+	height: 100%;
+}
+
 body {
     font-family: Work Sans;
     font-weight: 400;
@@ -55,19 +59,15 @@ nav > ul > li {
 
 section { /* I need proive id */
     width: 100%;
-    background-position: center center;
-	background-repeat: no-repeat;
-	background-size: cover;
-    background-image: url("https://crypto-live.net/wp-content/uploads/2020/05/bitcoin-3227986_1920.jpg");
     min-height: 600px;
     border-bottom: 2px solid rgb(123, 128, 170);
   }
 
-article > h2, article  p, nav li {
+article > h2, article > p, nav li {
     text-align: center;
     color: aliceblue;
 }
-article  p ,  nav li {
+nav li { /* delete css in future*/
     font-size: 26px;
     font-weight: bold;
 }
@@ -80,13 +80,7 @@ h3 {
 }
 
 footer {
-    background-color: #9aadbf;
-    min-height: 600px;
-    width: 100%;
-}
-
-footer div{
-    margin-left: auto;
-    margin-right: auto;
-    width: 8em
+	background-color: #9aadbf;
+	min-height: 400px;
+	width: 100%;
 }
